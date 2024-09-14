@@ -1,37 +1,24 @@
 import { defineConfig } from "vitepress";
+import navConfig from "../src/config/navConfig";
+import sideBarConfig from "../src/config/sideBarConfig";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/front-notes/",
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   title: "Yan Home",
   description: "Yan Personal Site",
-  srcDir: "./src",
+  srcDir: "src",
   rewrites: {
     "views/(.*)": "(.*)",
   },
-
   themeConfig: {
     //logo
     logo: "/svg/logo.svg",
     // nav  https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "前端(Note)", link: "/" },
-      { text: "个人天地(Garden)", link: "/views/personal/presume" },
-      // {
-      //   text: "Github",
-      //   items: [
-      //     { text: "Item A", link: "/item-1" },
-      //     { text: "Item B", link: "/item-2" },
-      //     { text: "Item C", link: "/item-3" },
-      //   ],
-      // },
-    ],
+    nav: navConfig,
     // sidebar
-    sidebar: {
-      "/personal/": [
-        { text: "个人简历", link: "/personal/presume" },
-        { text: "工作之余", link: "/personal/life" },
-      ],
-    },
+    sidebar: sideBarConfig,
     // socialLinks
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
