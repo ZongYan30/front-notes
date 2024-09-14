@@ -5,7 +5,7 @@ import sideBarConfig from "../src/config/sideBarConfig";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/front-notes/",
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [["link", { rel: "icon", href: "/front-notes/favicon.ico" }]],
   title: "Yan Home",
   description: "Yan Personal Site",
   srcDir: "src",
