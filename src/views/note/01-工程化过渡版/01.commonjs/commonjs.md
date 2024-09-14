@@ -23,7 +23,7 @@
 >
 > 下载地址：https://nodejs.org/zh-cn/
 >
-> ![image-20210423130904669](http://mdrs.yuanjin.tech/img/20210423130904.png)
+> ![image-20210423130904669](assets/20210423130904.png)
 
 # CommonJS如何实现模块化
 
