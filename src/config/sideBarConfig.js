@@ -11,4 +11,10 @@ export default {
   "/note/10-模块化详细版/": set_sidebar("/src/views/note/10-模块化详细版"),
   "/note/11-packageManger/": set_sidebar("/src/views/note/11-packageManger"),
   "/note/12-webpack/": set_sidebar("/src/views/note/12-webpack"),
+  "/note/13-vue/": set_sidebar("/src/views/note/13-vue"),
+  //项目模块的侧边栏
+  "/program/01.PC通用工程化/": set_sidebar(
+    "/src/views/program/01.PC通用工程化"
+  ),
+  "/program/02.小兔鲜/": set_sidebar("/src/views/program/02.小兔鲜"),
 };

@@ -50,5 +50,7 @@ export default defineConfig({
       message: "MIT License",
       copyright: "Copyright © 2024-present Yan",
     },
+    //
+    outline: [2, 3],
   },
 });
