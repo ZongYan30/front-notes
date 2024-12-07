@@ -39,6 +39,16 @@ export default [
       },
     ],
   },
+  // 面试
+  {
+    text: "面试",
+    items: [
+      {
+        text: "大师必备",
+        link: "/interview/01-大师必备/01.事件循环",
+      },
+    ],
+  },
   //个人天地
   { text: "个人天地(Garden)", link: "/personal/presume" },
 ];

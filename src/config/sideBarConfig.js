@@ -17,4 +17,6 @@ export default {
     "/src/views/program/01.PC通用工程化"
   ),
   "/program/02.小兔鲜/": set_sidebar("/src/views/program/02.小兔鲜"),
+  // 面试模块
+  "/interview/": set_sidebar("/src/views/interview/01-大师必备"),
 };
