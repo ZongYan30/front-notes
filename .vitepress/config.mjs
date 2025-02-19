@@ -8,6 +8,7 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/front-notes/favicon.ico" }]],
   title: "Yan Home",
   description: "Yan Personal Site",
+  ignoreDeadLinks: true,
   srcDir: "src",
   rewrites: {
     "views/(.*)": "(.*)",
