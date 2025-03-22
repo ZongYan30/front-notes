@@ -4,8 +4,12 @@ export default [
     text: "前端(Note)",
     items: [
       {
+        text: "HtmlCss收官",
+        link: "/note/01-HtmlCss收官/01.补充重要知识.md",
+      },
+      {
         text: "工程化(过渡版)",
-        link: "/note/01-工程化过渡版/01.commonjs/commonjs",
+        link: "/note/09-工程化过渡版/01.commonjs/commonjs",
       },
       {
         text: "模块化(详细版)",
