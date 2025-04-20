@@ -7,6 +7,7 @@ export default {
     { text: "工作之余", link: "/personal/life" },
   ],
   //   笔记模块的侧边栏
+  "/note/01-HtmlCss基础/": set_sidebar("/src/views/note/01-HtmlCss基础"),
   "/note/01-HtmlCss收官/": set_sidebar("/src/views/note/01-HtmlCss收官"),
   "/note/09-工程化过渡版/": set_sidebar("/src/views/note/09-工程化过渡版"),
   "/note/10-模块化详细版/": set_sidebar("/src/views/note/10-模块化详细版"),

@@ -4,6 +4,10 @@ export default [
     text: "前端(Note)",
     items: [
       {
+        text: "HtmlCss基础",
+        link: "/note/01-HtmlCss基础/01.第一个网页.md",
+      },
+      {
         text: "HtmlCss收官",
         link: "/note/01-HtmlCss收官/01.补充重要知识.md",
       },
