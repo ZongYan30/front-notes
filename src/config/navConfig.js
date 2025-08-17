@@ -12,6 +12,10 @@ export default [
         link: "/note/01-HtmlCss收官/01.补充重要知识.md",
       },
       {
+        text: "JS收官",
+        link: "/note/02-JS收官/01.数据的表达.md",
+      },
+      {
         text: "工程化(过渡版)",
         link: "/note/09-工程化过渡版/01.commonjs/commonjs",
       },
