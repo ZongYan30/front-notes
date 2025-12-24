@@ -16,22 +16,22 @@
 
 前端主要有两大模块化标准：
 
-- CommonJS，简称CMJ，这是一个**社区**规范，出现时间较早，目前仅node环境支持
-- ES Module，简称ESM，这是随着ES6发布的**官方**模块化标准，目前浏览器和新版本node环境均支持
+- CommonJS，简称 CMJ，这是一个**社区**规范，出现时间较早，目前仅 node 环境支持
+- ES Module，简称 ESM，这是随着 ES6 发布的**官方**模块化标准，目前浏览器和新版本 node 环境均支持
 
-> node环境
+> node 环境
 >
 > 下载地址：https://nodejs.org/zh-cn/
 >
-> ![image-20210423130904669](assets/20210423130904.png)
+> ![image-20210423130904669](https://zongyan30.github.io/front-assets/09-工程化过渡版/20210423130904.png)
 
-# CommonJS如何实现模块化
+# CommonJS 如何实现模块化
 
-node天生支持CommonJS模块化标准
+node 天生支持 CommonJS 模块化标准
 
-node规定：
+node 规定：
 
-1. node中的每个js文件都是一个CMJ模块，通过node命令运行的模块，叫做入口模块
+1. node 中的每个 js 文件都是一个 CMJ 模块，通过 node 命令运行的模块，叫做入口模块
 
 2. 模块中的所有全局定义的变量、函数，都不会污染到其他模块
 
@@ -42,8 +42,7 @@ node规定：
    1. 导入模块时，可以省略`.js`
    2. 导入模块时，必须以`./`或`../`开头
 
-5. **一个模块在被导入时会运行一次，然后它的导出结果会被node缓存起来，后续对该模块导入时，不会重新运行，直接使用缓存结果**
-
+5. **一个模块在被导入时会运行一次，然后它的导出结果会被 node 缓存起来，后续对该模块导入时，不会重新运行，直接使用缓存结果**
 
 # 练习题
 
@@ -56,7 +55,7 @@ node规定：
 它需要导出一个对象，规格如下：
 
 ```js
-module.exports ={
+module.exports = {
   wordDuration: 300, // 打印每个字的时间间隔
   text: `西风烈，
 长空雁叫霜晨月。
@@ -67,8 +66,8 @@ module.exports ={
 而今迈步从头越。
 从头越，
 苍山如海，
-残阳如血。` // 要打印的文字
-}
+残阳如血。`, // 要打印的文字
+};
 ```
 
 **2. 延迟模块 delay.js**
@@ -85,7 +84,6 @@ function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 module.exports = delay;
-
 ```
 
 **3. 打印模块 print.js**
@@ -93,7 +91,7 @@ module.exports = delay;
 该模块负责导出一个打印函数，该函数需要获取当前的打印配置：
 
 ```js
-const config = require("./config");	//初次导入的时候，会运行config.js模块，后续node缓存了，引入就不会再运行了
+const config = require("./config"); //初次导入的时候，会运行config.js模块，后续node缓存了，引入就不会再运行了
 
 /**
  * 该函数会做以下两件事：
@@ -108,7 +106,6 @@ function print(index) {
 }
 
 module.exports = print;
-
 ```
 
 **4. 主模块 main.js**
@@ -131,6 +128,3 @@ async function run() {
 
 run();
 ```
-
-
-

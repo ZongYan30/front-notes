@@ -16,7 +16,7 @@
 
 `SKU` 属于电商常见业务，插件市场有现成的 `SKU` 插件，我们下载并在项目中使用。
 
-![插件市场](./assets/sku_picture_1.png)
+![插件市场](https://zongyan30.github.io/front-assets/小兔鲜/sku_picture_1.png)
 
 ### 下载 SKU 插件
 
@@ -24,7 +24,7 @@
 
 **体验地址**
 
-![插件市场](./assets/sku_picture_2.png)
+![插件市场](https://zongyan30.github.io/front-assets/小兔鲜/sku_picture_2.png)
 
 ::: tip 常见问题
 
@@ -92,149 +92,149 @@ A：插件未采用 `eslint` 校验代码，请在插件源文件中添加 `/* e
 `vk-data-goods-sku-popup.d.ts`
 
 ```ts
-import { Component } from '@uni-helper/uni-app-types'
+import { Component } from "@uni-helper/uni-app-types";
 
 /** SKU 弹出层 */
-export type SkuPopup = Component<SkuPopupProps>
+export type SkuPopup = Component<SkuPopupProps>;
 
 /** SKU 弹出层实例 */
-export type SkuPopupInstanceType = InstanceType<SkuPopup>
+export type SkuPopupInstanceType = InstanceType<SkuPopup>;
 
 /** SKU 弹出层属性 */
 export type SkuPopupProps = {
   /** 双向绑定，true 为打开组件，false 为关闭组件 */
-  modelValue: boolean
+  modelValue: boolean;
   /** 商品信息本地数据源 */
-  localdata: SkuPopupLocaldata
+  localdata: SkuPopupLocaldata;
   /** 按钮模式 1:都显示 2:只显示购物车 3:只显示立即购买 */
-  mode?: 1 | 2 | 3
+  mode?: 1 | 2 | 3;
   /** 该商品已抢完时的按钮文字 */
-  noStockText?: string
+  noStockText?: string;
   /** 库存文字 */
-  stockText?: string
+  stockText?: string;
   /** 点击遮罩是否关闭组件 */
-  maskCloseAble?: boolean
+  maskCloseAble?: boolean;
   /** 顶部圆角值 */
-  borderRadius?: string | number
+  borderRadius?: string | number;
   /** 最小购买数量 */
-  minBuyNum?: number
+  minBuyNum?: number;
   /** 最大购买数量 */
-  maxBuyNum?: number
+  maxBuyNum?: number;
   /** 每次点击后的数量 */
-  stepBuyNum?: number
+  stepBuyNum?: number;
   /** 是否只能输入 step 的倍数 */
-  stepStrictly?: boolean
+  stepStrictly?: boolean;
   /** 是否隐藏库存的显示 */
-  hideStock?: false
+  hideStock?: false;
   /** 主题风格 */
-  theme?: 'default' | 'red-black' | 'black-white' | 'coffee' | 'green'
+  theme?: "default" | "red-black" | "black-white" | "coffee" | "green";
   /** 默认金额会除以100（即100=1元），若设置为0，则不会除以100（即1=1元） */
-  amountType?: 1 | 0
+  amountType?: 1 | 0;
   /** 自定义获取商品信息的函数（已知支付宝不支持，支付宝请改用localdata属性） */
-  customAction?: () => void
+  customAction?: () => void;
   /** 是否显示右上角关闭按钮 */
-  showClose?: boolean
+  showClose?: boolean;
   /** 关闭按钮的图片地址 */
-  closeImage?: string
+  closeImage?: string;
   /** 价格的字体颜色 */
-  priceColor?: string
+  priceColor?: string;
   /** 立即购买 - 按钮的文字 */
-  buyNowText?: string
+  buyNowText?: string;
   /** 立即购买 - 按钮的字体颜色 */
-  buyNowColor?: string
+  buyNowColor?: string;
   /** 立即购买 - 按钮的背景颜色 */
-  buyNowBackgroundColor?: string
+  buyNowBackgroundColor?: string;
   /** 加入购物车 - 按钮的文字 */
-  addCartText?: string
+  addCartText?: string;
   /** 加入购物车 - 按钮的字体颜色 */
-  addCartColor?: string
+  addCartColor?: string;
   /** 加入购物车 - 按钮的背景颜色 */
-  addCartBackgroundColor?: string
+  addCartBackgroundColor?: string;
   /** 商品缩略图背景颜色 */
-  goodsThumbBackgroundColor?: string
+  goodsThumbBackgroundColor?: string;
   /** 样式 - 不可点击时,按钮的样式 */
-  disableStyle?: object
+  disableStyle?: object;
   /** 样式 - 按钮点击时的样式 */
-  activedStyle?: object
+  activedStyle?: object;
   /** 样式 - 按钮常态的样式 */
-  btnStyle?: object
+  btnStyle?: object;
   /** 字段名 - 商品表id的字段名 */
-  goodsIdName?: string
+  goodsIdName?: string;
   /** 字段名 - sku表id的字段名 */
-  skuIdName?: string
+  skuIdName?: string;
   /** 字段名 - 商品对应的sku列表的字段名 */
-  skuListName?: string
+  skuListName?: string;
   /** 字段名 - 商品规格名称的字段名 */
-  specListName?: string
+  specListName?: string;
   /** 字段名 - sku库存的字段名 */
-  stockName?: string
+  stockName?: string;
   /** 字段名 - sku组合路径的字段名 */
-  skuArrName?: string
+  skuArrName?: string;
   /** 字段名 - 商品缩略图字段名(未选择sku时) */
-  goodsThumbName?: string
+  goodsThumbName?: string;
   /** 被选中的值 */
-  selectArr?: string[]
+  selectArr?: string[];
 
   /** 打开弹出层 */
-  onOpen: () => void
+  onOpen: () => void;
   /** 关闭弹出层 */
-  onClose: () => void
+  onClose: () => void;
   /** 点击加入购物车时（需选择完SKU才会触发）*/
-  onAddCart: (event: SkuPopupEvent) => void
+  onAddCart: (event: SkuPopupEvent) => void;
   /** 点击立即购买时（需选择完SKU才会触发）*/
-  onBuyNow: (event: SkuPopupEvent) => void
-}
+  onBuyNow: (event: SkuPopupEvent) => void;
+};
 
 /**  商品信息本地数据源 */
 export type SkuPopupLocaldata = {
   /** 商品 ID */
-  _id: string
+  _id: string;
   /** 商品名称 */
-  name: string
+  name: string;
   /** 商品图片 */
-  goods_thumb: string
+  goods_thumb: string;
   /** 商品规格列表 */
-  spec_list: SkuPopupSpecItem[]
+  spec_list: SkuPopupSpecItem[];
   /** 商品SKU列表 */
-  sku_list: SkuPopupSkuItem[]
-}
+  sku_list: SkuPopupSkuItem[];
+};
 
 /** 商品规格名称的集合 */
 export type SkuPopupSpecItem = {
   /** 规格名称 */
-  name: string
+  name: string;
   /** 规格集合 */
-  list: { name: string }[]
-}
+  list: { name: string }[];
+};
 
 /** 商品SKU列表 */
 export type SkuPopupSkuItem = {
   /** SKU ID */
-  _id: string
+  _id: string;
   /**  商品 ID */
-  goods_id: string
+  goods_id: string;
   /** 商品名称 */
-  goods_name: string
+  goods_name: string;
   /** 商品图片 */
-  image: string
+  image: string;
   /** SKU 价格 * 100, 注意：需要乘以 100 */
-  price: number
+  price: number;
   /** SKU 规格组成, 注意：需要与 spec_list 数组顺序对应 */
-  sku_name_arr: string[]
+  sku_name_arr: string[];
   /** SKU 库存 */
-  stock: number
-}
+  stock: number;
+};
 
 /** 当前选择的sku数据 */
 export type SkuPopupEvent = SkuPopupSkuItem & {
   /** 商品购买数量 */
-  buy_num: number
-}
+  buy_num: number;
+};
 
 /** 全局组件类型声明 */
-declare module 'vue' {
+declare module "vue" {
   export interface GlobalComponents {
-    'vk-data-goods-sku-popup': SkuPopup
+    "vk-data-goods-sku-popup": SkuPopup;
   }
 }
 ```
@@ -252,13 +252,13 @@ declare module 'vue' {
 
 ```vue {9-24,28,30,35,37}
 <script setup lang="ts">
-import type { SkuPopupLocaldata } from '@/components/vk-data-goods-sku-popup/vk-data-goods-sku-popup'
+import type { SkuPopupLocaldata } from "@/components/vk-data-goods-sku-popup/vk-data-goods-sku-popup";
 
 // 获取商品详情信息
-const goods = ref<GoodsResult>()
+const goods = ref<GoodsResult>();
 const getGoodsByIdData = async () => {
-  const res = await getGoodsByIdAPI(query.id)
-  goods.value = res.result
+  const res = await getGoodsByIdAPI(query.id);
+  goods.value = res.result;
   // SKU组件所需格式
   localdata.value = {
     _id: res.result.id,
@@ -274,13 +274,13 @@ const getGoodsByIdData = async () => {
       stock: v.inventory,
       sku_name_arr: v.specs.map((vv) => vv.valueName),
     })),
-  }
-}
+  };
+};
 
 // 是否显示SKU组件
-const isShowSku = ref(false)
+const isShowSku = ref(false);
 // 商品信息
-const localdata = ref({} as SkuPopupLocaldata)
+const localdata = ref({} as SkuPopupLocaldata);
 </script>
 
 <template>
@@ -303,14 +303,14 @@ enum SkuMode {
   Cart = 2,
   Buy = 3,
 }
-const mode = ref<SkuMode>(SkuMode.Cart)
+const mode = ref<SkuMode>(SkuMode.Cart);
 // 打开SKU弹窗修改按钮模式
 const openSkuPopup = (val: SkuMode) => {
   // 显示SKU弹窗
-  isShowSku.value = true
+  isShowSku.value = true;
   // 修改按钮模式
-  mode.value = val
-}
+  mode.value = val;
+};
 </script>
 
 <template>
@@ -324,7 +324,9 @@ const openSkuPopup = (val: SkuMode) => {
   />
 
   <!-- 显示两个按钮 -->
-  <view @tap="openSkuPopup(SkuMode.Both)" class="item arrow">请选择商品规格</view>
+  <view @tap="openSkuPopup(SkuMode.Both)" class="item arrow"
+    >请选择商品规格</view
+  >
   <!-- 显示一个按钮 -->
   <view @tap="openSkuPopup(SkuMode.Cart)" class="addcart"> 加入购物车 </view>
   <view @tap="openSkuPopup(SkuMode.Buy)" class="payment"> 立即购买 </view>
@@ -340,12 +342,12 @@ const openSkuPopup = (val: SkuMode) => {
 ```vue {3,5-7,18-23,29}
 <script setup lang="ts">
 // SKU组件实例
-const skuPopupRef = ref<SkuPopupInstance>()
+const skuPopupRef = ref<SkuPopupInstance>();
 // 计算被选中的值
 const selectArrText = computed(() => {
-    //['',''].join(' ') == ' '    而' '|| b  不会认为' '是假的      ' '.trim()==''
-  return skuPopupRef.value?.selectArr?.join(' ').trim() || '请选择商品规格'
-})
+  //['',''].join(' ') == ' '    而' '|| b  不会认为' '是假的      ' '.trim()==''
+  return skuPopupRef.value?.selectArr?.join(" ").trim() || "请选择商品规格";
+});
 </script>
 
 <template>
