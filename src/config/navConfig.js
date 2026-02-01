@@ -16,6 +16,10 @@ export default [
         link: "/note/02-JS收官/01.数据的表达.md",
       },
       {
+        text: "JS实战",
+        link: "/note/03-JS实战/01.文字滚动.md",
+      },
+      {
         text: "工程化(过渡版)",
         link: "/note/09-工程化过渡版/01.commonjs/commonjs",
       },
