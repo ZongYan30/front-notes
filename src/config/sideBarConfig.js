@@ -6,11 +6,12 @@ export default {
     { text: "个人简历", link: "/personal/presume" },
     { text: "工作之余", link: "/personal/life" },
   ],
-  //   笔记模块的侧边栏
+  //笔记模块的侧边栏
   "/note/01-HtmlCss基础/": set_sidebar("/src/views/note/01-HtmlCss基础"),
-  "/note/01-HtmlCss收官/": set_sidebar("/src/views/note/01-HtmlCss收官"),
-  "/note/02-JS收官/": set_sidebar("/src/views/note/02-JS收官"),
-  "/note/03-JS实战/": set_sidebar("/src/views/note/03-JS实战"),
+  "/note/02-HtmlCss收官/": set_sidebar("/src/views/note/02-HtmlCss收官"),
+  "/note/03-JS详细版/": set_sidebar("/src/views/note/03-JS详细版"),
+  "/note/04-JS收官/": set_sidebar("/src/views/note/04-JS收官"),
+  "/note/05-JS实战/": set_sidebar("/src/views/note/05-JS实战"),
   "/note/09-工程化过渡版/": set_sidebar("/src/views/note/09-工程化过渡版"),
   "/note/10-模块化详细版/": set_sidebar("/src/views/note/10-模块化详细版"),
   "/note/11-packageManger/": set_sidebar("/src/views/note/11-packageManger"),

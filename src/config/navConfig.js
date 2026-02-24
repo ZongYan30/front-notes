@@ -9,15 +9,19 @@ export default [
       },
       {
         text: "HtmlCss收官",
-        link: "/note/01-HtmlCss收官/01.补充重要知识.md",
+        link: "/note/02-HtmlCss收官/01.补充重要知识.md",
+      },
+      {
+        text: "JS详细版",
+        link: "/note/03-JS详细版/01.基础知识/01.概述.md",
       },
       {
         text: "JS收官",
-        link: "/note/02-JS收官/01.数据的表达.md",
+        link: "/note/04-JS收官/01.数据的表达.md",
       },
       {
         text: "JS实战",
-        link: "/note/03-JS实战/01.文字滚动.md",
+        link: "/note/05-JS实战/01.文字滚动.md",
       },
       {
         text: "工程化(过渡版)",
