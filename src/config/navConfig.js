@@ -24,6 +24,10 @@ export default [
         link: "/note/05-JS实战/01.文字滚动.md",
       },
       {
+        text: "网络",
+        link: "/note/08-网络/01.网络.md",
+      },
+      {
         text: "工程化(过渡版)",
         link: "/note/09-工程化过渡版/01.commonjs/commonjs",
       },

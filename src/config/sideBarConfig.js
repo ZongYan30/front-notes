@@ -12,6 +12,7 @@ export default {
   "/note/03-JS详细版/": set_sidebar("/src/views/note/03-JS详细版"),
   "/note/04-JS收官/": set_sidebar("/src/views/note/04-JS收官"),
   "/note/05-JS实战/": set_sidebar("/src/views/note/05-JS实战"),
+  "/note/08-网络/": set_sidebar("/src/views/note/08-网络"),
   "/note/09-工程化过渡版/": set_sidebar("/src/views/note/09-工程化过渡版"),
   "/note/10-模块化详细版/": set_sidebar("/src/views/note/10-模块化详细版"),
   "/note/11-packageManger/": set_sidebar("/src/views/note/11-packageManger"),
