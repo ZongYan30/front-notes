@@ -1,7 +1,7 @@
 export default [
   // 笔记
   {
-    text: "前端(Note)",
+    text: "前端(基础)",
     items: [
       {
         text: "HtmlCss基础",
@@ -47,6 +47,16 @@ export default [
         text: "vue",
         link: "/note/13-vue/01.基础知识/01.vue初识",
       },
+    ],
+  },
+  //广度
+  {
+    text: "前端进阶",
+    items: [
+      {
+        text: "AI效能工具",
+        link: "/AI/01.AI效能工具/01.AI基础认知.md",
+      }
     ],
   },
   //项目
