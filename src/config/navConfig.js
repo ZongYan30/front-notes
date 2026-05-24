@@ -56,6 +56,10 @@ export default [
       {
         text: "AI效能工具",
         link: "/AI/01.AI效能工具/01.AI基础认知.md",
+      },
+      {
+        text: "Node",
+        link: "/note2/01.Node/01.全局对象.md",
       }
     ],
   },
