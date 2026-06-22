@@ -59,7 +59,7 @@ export default [
       },
       {
         text: "Node",
-        link: "/note2/01.Node/01.全局对象.md",
+        link: "/note2/01.Node/01.基础知识/01.全局对象.md",
       }
     ],
   },
