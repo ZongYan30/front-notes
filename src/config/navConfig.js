@@ -1,7 +1,7 @@
 export default [
   // 笔记
   {
-    text: "前端(基础)",
+    text: "前端",
     items: [
       {
         text: "HtmlCss基础",
@@ -47,25 +47,29 @@ export default [
         text: "vue",
         link: "/note/13-vue/01.基础知识/01.vue初识",
       },
+      {
+        text: "Node",
+        link: "/note/14.Node/01.基础知识/01.全局对象.md",
+      }
     ],
   },
   //广度
   {
-    text: "前端进阶",
+    text: "AI",
     items: [
       {
         text: "AI效能工具",
-        link: "/AI/01.AI效能工具/01.AI基础认知.md",
+        link: "/AI应用/01.AI效能工具/01.AI基础认知.md",
       },
       {
-        text: "Node",
-        link: "/note2/01.Node/01.基础知识/01.全局对象.md",
-      }
+        text: "python",
+        link: "/AI应用/02.python/01.导言.md",
+      },
     ],
   },
   //项目
   {
-    text: "项目代码",
+    text: "项目",
     items: [
       {
         text: "PC通用工程化",
@@ -88,5 +92,5 @@ export default [
     ],
   },
   //个人天地
-  { text: "个人天地(Garden)", link: "/personal/presume" },
+  { text: "个人", link: "/personal/presume" },
 ];
