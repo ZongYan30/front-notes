@@ -63,7 +63,7 @@ export default [
       },
       {
         text: "python",
-        link: "/AI应用/02.python/01.导言.md",
+        link: "/AI应用/02.python/01.python基础/01.导言.md",
       },
     ],
   },

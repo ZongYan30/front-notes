@@ -20,8 +20,8 @@ export default {
   "/note/13-vue/": set_sidebar("/src/views/note/13-vue"),
   "/note/14.Node/": set_sidebar("/src/views/note/14.Node"),
   // AI应用
-  "/AI应用/01.AI效能工具": set_sidebar("/src/views/AI应用/01.AI效能工具"),
-  "/AI应用/02.python": set_sidebar("/src/views/AI应用/02.python"),
+  "/AI应用/01.AI效能工具/": set_sidebar("/src/views/AI应用/01.AI效能工具"),
+  "/AI应用/02.python/": set_sidebar("/src/views/AI应用/02.python"),
   //项目模块
   "/program/01.PC通用工程化/": set_sidebar("/src/views/program/01.PC通用工程化"),
   "/program/02.小兔鲜/": set_sidebar("/src/views/program/02.小兔鲜"),
