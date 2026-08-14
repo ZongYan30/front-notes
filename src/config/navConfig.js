@@ -65,6 +65,10 @@ export default [
         text: "python",
         link: "/AI应用/02.python/01.python基础/01.导言.md",
       },
+      {
+        text: "数据库",
+        link: "/AI应用/03.数据库/01.PgSql安装.md",
+      },
     ],
   },
   //项目
