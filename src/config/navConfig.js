@@ -69,6 +69,10 @@ export default [
         text: "数据库",
         link: "/AI应用/03.数据库/01.PgSql安装.md",
       },
+      {
+        text: "数据科学",
+        link: "/AI应用/04.数据科学/01.Numpy.md",
+      },
     ],
   },
   //项目

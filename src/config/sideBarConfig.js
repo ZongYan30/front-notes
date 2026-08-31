@@ -23,6 +23,7 @@ export default {
   "/AI应用/01.AI效能工具/": set_sidebar("/src/views/AI应用/01.AI效能工具"),
   "/AI应用/02.python/": set_sidebar("/src/views/AI应用/02.python"),
   "/AI应用/03.数据库/": set_sidebar("/src/views/AI应用/03.数据库"),
+  "/AI应用/04.数据科学/": set_sidebar("/src/views/AI应用/04.数据科学"),
   //项目模块
   "/program/01.PC通用工程化/": set_sidebar("/src/views/program/01.PC通用工程化"),
   "/program/02.小兔鲜/": set_sidebar("/src/views/program/02.小兔鲜"),
