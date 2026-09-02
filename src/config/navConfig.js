@@ -73,6 +73,10 @@ export default [
         text: "数据科学",
         link: "/AI应用/04.数据科学/01.Numpy.md",
       },
+      {
+        text: "Agents原理",
+        link: "/AI应用/05.Agents原理/01.前言.md",
+      },
     ],
   },
   //项目
