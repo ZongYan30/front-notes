@@ -9,6 +9,9 @@ export default defineConfig({
   title: "Yan Home",
   description: "Yan Personal Site",
   ignoreDeadLinks: true,
+  markdown: {
+    math: true,
+  },
   srcDir: "src",
   rewrites: {
     "views/(.*)": "(.*)",
