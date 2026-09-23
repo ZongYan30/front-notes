@@ -77,6 +77,10 @@ export default [
         text: "Agents原理",
         link: "/AI应用/05.Agents原理/01.前言.md",
       },
+      {
+        text: "LangGraph",
+        link: "/AI应用/06.LangGraph/01. 必看导言.md",
+      },
     ],
   },
   //项目
