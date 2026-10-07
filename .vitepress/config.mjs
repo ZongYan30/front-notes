@@ -24,9 +24,10 @@ export default defineConfig({
     // sidebar
     sidebar: sideBarConfig,
     // socialLinks
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    socialLinks: [],
+    // socialLinks: [
+    //   { icon: "github", link: "https://github.com/vuejs/vitepress" },
+    // ],
     //搜索框
     search: {
       provider: "local",

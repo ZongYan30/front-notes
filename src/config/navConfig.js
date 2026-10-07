@@ -108,5 +108,5 @@ export default [
     ],
   },
   //个人天地
-  { text: "个人", link: "/personal/presume" },
+  // { text: "个人", link: "/personal/presume" },
 ];
