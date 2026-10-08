@@ -81,6 +81,10 @@ export default [
         text: "LangGraph",
         link: "/AI应用/06.LangGraph/01. 必看导言.md",
       },
+      {
+        text: "LangChain",
+        link: "/AI应用/07.LangChain/01. 认识 Agent.md",
+      },
     ],
   },
   //项目
