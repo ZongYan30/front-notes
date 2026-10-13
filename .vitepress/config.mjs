@@ -1,9 +1,11 @@
 import { defineConfig } from "vitepress";
+import { withMermaid } from "vitepress-plugin-mermaid";
 import navConfig from "../src/config/navConfig";
 import sideBarConfig from "../src/config/sideBarConfig";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid(
+  defineConfig({
   base: "/front-notes/",
   head: [["link", { rel: "icon", href: "/front-notes/favicon.ico" }]],
   title: "Yan Home",
@@ -11,6 +13,21 @@ export default defineConfig({
   ignoreDeadLinks: true,
   markdown: {
     math: true,
+  },
+  vite: {
+    optimizeDeps: {
+      include: [
+        "mermaid",
+        "fastdom",
+        "dagre-d3-es",
+        "@upsetjs/venn.js",
+        "d3-sankey",
+        "roughjs",
+        "khroma",
+        "ts-dedent",
+        "stylis",
+      ],
+    },
   },
   srcDir: "src",
   rewrites: {
@@ -58,4 +75,5 @@ export default defineConfig({
     //
     outline: [2, 3],
   },
-});
+  })
+);
