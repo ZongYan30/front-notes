@@ -83,7 +83,7 @@ export default [
       },
       {
         text: "LangChain",
-        link: "/AI应用/07.LangChain/01. 认识 Agent.md",
+        link: "/AI应用/07.LangChain/01.认识Agent.md",
       },
     ],
   },

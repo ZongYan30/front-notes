@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始学习 (let's go)
-      link: /AI应用/01.AI效能工具/01.AI基础认知.md
+      link: /AI应用/07.LangChain/01.认识Agent.md
     - theme: alt
       text: 个人名片 (contact)
       link: http://121.199.78.115/#/home
