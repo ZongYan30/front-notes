@@ -85,6 +85,10 @@ export default [
         text: "LangChain",
         link: "/AI应用/07.LangChain/01.认识Agent.md",
       },
+      {
+        text: "Agents监测评估",
+        link: "/AI应用/08.Agents监测评估/01. 必看导言.md",
+      },
     ],
   },
   //项目
