@@ -89,6 +89,10 @@ export default [
         text: "Agents监测评估",
         link: "/AI应用/08.Agents监测评估/01. 必看导言.md",
       },
+      {
+        text: "Agents基础设施",
+        link: "/AI应用/09.Agents基础设施/01. 课程导言.md",
+      },
     ],
   },
   //项目
